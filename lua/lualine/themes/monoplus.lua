@@ -1,41 +1,41 @@
-local c = require("sequoia.colors").setup()
+local c = require("monoplus.colors").setup()
 
-local sequoia = {}
+local monoplus = {}
 
-sequoia.normal = {
+monoplus.normal = {
     a = { fg = c.bg, bg = c.blue, gui = "bold" },
     b = { fg = c.fg, bg = c.focus_high },
     c = { fg = c.fg, bg = c.bg }
 }
 
-sequoia.insert = {
+monoplus.insert = {
     a = { fg = c.bg, bg = c.white, gui = "bold" },
     b = { fg = c.fg, bg = c.focus_high },
     c = { fg = c.fg, bg = c.bg }
 }
 
-sequoia.command = {
+monoplus.command = {
     a = { fg = c.bg, bg = c.orange, gui = "bold" },
     b = { fg = c.fg, bg = c.focus_high },
     c = { fg = c.fg, bg = c.bg }
 }
 
-sequoia.visual = {
+monoplus.visual = {
     a = { fg = c.bg, bg = c.pink, gui = "bold" },
     b = { fg = c.fg, bg = c.focus_high },
     c = { fg = c.fg, bg = c.bg }
 }
 
-sequoia.replace = {
+monoplus.replace = {
     a = { fg = c.bg, bg = c.pink, gui = "bold" },
     b = { fg = c.fg, bg = c.focus_high },
     c = { fg = c.fg, bg = c.bg }
 }
 
-sequoia.inactive = {
+monoplus.inactive = {
     a = { fg = c.white, bg = c.focus_high, gui = "bold" },
     b = { fg = c.fg, bg = c.focus_high },
     c = { fg = c.fg, bg = c.bg }
 }
 
-return sequoia
+return monoplus

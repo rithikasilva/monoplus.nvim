@@ -1,4 +1,4 @@
-local c = require("sequoia.colors").setup()
+local c = require("monoplus.colors").setup()
 
 local M = {}
 
